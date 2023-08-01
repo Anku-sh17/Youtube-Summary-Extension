@@ -1,0 +1,4 @@
+1. pip install spacy
+2. pip install youtube_transcript_api
+3. pip install flask
+4. python -m spacy download en_core_web_lg

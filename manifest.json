@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Summariser",
+  "description": "Extension to summarize your videos",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "host_permissions": ["http://127.0.0.1:5000/*"],
+  "icons": {
+    "128": "My-project.png"
+  },
+  "action": {
+    "default_title": "Summarize it",
+    "default_popup": "extension.html"
+  }
+}

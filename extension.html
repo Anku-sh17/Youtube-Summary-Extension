@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Summarizer</title>
+    <style>
+      body,
+      h1,
+      p,
+      button {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f2f2f2;
+        color: #333;
+        text-align: center;
+        padding: 20px;
+        width: 300px;
+      }
+
+      h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+
+      button {
+        font-size: 18px;
+        background-color: #db1111;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      button:hover {
+        background-color: #ff0000;
+      }
+
+      #output {
+        font-size: 16px;
+        margin-top: 20px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Youtube Summarizer</h1>
+    <button id="summarise" type="button">Summarize</button>
+    <br />
+    <p id="output"></p>
+    <script src="extension.js"></script>
+  </body>
+</html>
