@@ -1,3 +1,5 @@
+-- Run these commands in command prompt first
+
 1. pip install spacy
 2. pip install youtube_transcript_api
 3. pip install flask
