@@ -1,0 +1,38 @@
+<!-- settings.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="settings.css" />
+  </head>
+  <body>
+    <form id="settingsForm">
+      <label for="summaryLength">Enter summary length:</label>
+      <input
+        type="number"
+        id="summaryLength"
+        name="summaryLength"
+        min="1"
+        required
+      />
+      <br />
+      <label for="language">Select language:</label>
+      <div class="clear-row">
+        <input type="radio" id="en" name="language" value="english" checked />
+        <label for="english">English</label>
+
+        <input type="radio" id="es" name="language" value="spanish" />
+        <label for="spanish">Spanish</label>
+      </div>
+      <div class="clear-row">
+        <input type="radio" id="fr" name="language" value="french" />
+        <label for="french">French</label>
+
+        <input type="radio" id="de" name="language" value="german" />
+        <label for="german">German</label>
+      </div>
+      <br />
+      <button type="submit">Apply</button>
+    </form>
+    <script src="background.js"></script>
+  </body>
+</html>

@@ -8,6 +8,7 @@
   "icons": {
     "128": "My-project.png"
   },
+  "extension-id": "hegfhlekenjhepjhecjigihloekncknm",
   "action": {
     "default_title": "Summarize it",
     "default_popup": "extension.html"

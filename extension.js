@@ -16,3 +16,10 @@ btn.addEventListener("click", function () {
       xhr.send();
     });
 });
+
+var settingsIcon = document.getElementById("settings-icon");
+// Add a click event listener to the settings icon
+settingsIcon.addEventListener("click", function () {
+  // Open a new tab with the settings.html page
+  chrome.tabs.create({ url: "settings.html" });
+});
